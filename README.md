@@ -18,15 +18,20 @@ docker run -d --name pet-superstore-api -p 3000:3000 neelypatel/pet-superstore-a
 ```
 Go to `localhost:3000` to see the message. You can also do a healthcheck at `localhost:3000/healthcheck`.
 
-### Docker Compose
-Start the app and the database:
+### Docker Compose (easiest)
+Start the app:
 ```
 docker-compose up -d --build
 ```
+Information on how to start the app that this superstore calls can be found:
+https://github.com/neelp1/pets-app
+pets-app will connect to the pet-superstore-api network if started with docker compose.
+
 shut it all down:
 ```
 docker-compose down
 ```
+
 
 ### Upcoming features
 * instructions and config for deploying to various AWS services and GCP services
