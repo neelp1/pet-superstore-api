@@ -1,4 +1,4 @@
-# Skeleton node.js app
+# pet-superstore-api
 The purpose of this app is quickly test out container services that you may be
 interested in testing such as spinning up containers on EC2 instances, Elastic
 Container Service using Fargate, Elastic Kubernetes Service etc.
