@@ -32,7 +32,6 @@ shut it all down:
 docker-compose down
 ```
 
-
 ### Upcoming features
 * instructions and config for deploying to various AWS services and GCP services
 * kubernetes related instructions and config
